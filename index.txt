@@ -4,7 +4,7 @@ vCard - Personal Portfolio
 
 alt = Jesús García Romero
 Jesús García Romero
-Web developer
+3D Modeler
 
 Show Contacts
 
