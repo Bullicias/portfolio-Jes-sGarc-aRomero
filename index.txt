@@ -42,19 +42,19 @@ My work involves creating animations for product advertisements, developing asse
 What i'm doing
 
 alt = design icon
-Web design
+Procedural Modeling
 The most modern and high-quality design made at a professional level.
 
 alt = Web development icon
-Web development
+Organic Modeling
 High-quality development of sites at the professional level.
 
 alt = mobile app icon
-Mobile apps
+Product Ads
 Professional development of applications for iOS and Android.
 
 alt = camera icon
-Photography
+Special Effects
 I make high-quality photos of any category at a professional level.
 
 
