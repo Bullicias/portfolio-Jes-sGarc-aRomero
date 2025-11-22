@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Jesús García Romero
+Jesús García Romero
 Web developer
 
 Show Contacts
 
 Email
-richard@example.com
+jesus.garcia@campusfp.es
 
 Phone
-+1 (213) 352-2795
++34 666 666 666
 
 Birthday
-June 23, 1982
+March 8, 2006
 
 Location
-Sacramento, California, USA
+Ciempozuelos, Madrid, España
 
 # navbar
 
