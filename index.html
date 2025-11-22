@@ -1,52 +1,121 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Jesús García Romero</title>
+    <title>Mi Portfolio - ArtStation Style</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Iconos (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
 
-    <header>
-        <h1>Jesús García Romero</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#proyecto">Proyecto</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+    <!-- Barra de navegación superior (Simulada) -->
+    <nav class="top-nav">
+        <div class="logo">ARTSTATION</div>
+        <div class="search-bar"><i class="fas fa-search"></i> Search</div>
+        <div class="nav-actions">
+            <button class="sign-in">Sign In</button>
+        </div>
+    </nav>
+
+    <!-- Banner y Perfil -->
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="profile-container">
+            <div class="avatar">
+                <!-- Reemplaza con tu foto -->
+                <img src="https://i.pravatar.cc/150?img=11" alt="Avatar">
+            </div>
+            
+            <div class="profile-info">
+                <h1>Jeffry Imarhiagbe <span class="pro-badge">PRO</span></h1>
+                <p class="job-title">3D Artist</p>
+                <p class="location"><i class="fas fa-map-marker-alt"></i> Manchester, United Kingdom</p>
+                <a href="#" class="website-link">jeffsart.artstation.com <i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
     </header>
 
-    <main>
+    <!-- Barra de navegación del usuario -->
+    <div class="user-nav-bar">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li class="active">Portfolio</li>
+                <li>Blog</li>
+                <li>About</li>
+                <li>Likes (1,177)</li>
+                <li>Following (258)</li>
+            </ul>
+            <div class="action-buttons">
+                <button class="btn-follow"><i class="fas fa-plus"></i> Follow</button>
+                <button class="btn-message"><i class="fas fa-envelope"></i> Message</button>
+            </div>
+        </div>
+    </div>
 
-        <section id="inicio" class="hero">
-            <h2>Bienvenido a mi Portfolio</h2>
-            <p>Este es el comienzo de mi portfolio profesional para 3D y Animación.</p>
-        </section>
+    <!-- Filtros de Categoría -->
+    <div class="category-filter">
+        <ul>
+            <li>Props</li>
+            <li>Weapons</li>
+            <li>Characters</li>
+            <li>Vehicles</li>
+            <li>Environments</li>
+            <li class="active">All</li>
+        </ul>
+    </div>
 
-        <article id="proyecto" class="proyecto">
-            <h2>Proyecto Destacado</h2>
-
-            <figure>
-                <img src="assets/imagen.png" alt="Render o imagen principal del proyecto">
-                <figcaption>Imagen optimizada para web (formato PNG)</figcaption>
-            </figure>
+    <!-- Galería (Grid) -->
+    <main class="gallery-container">
+        <!-- Item 1 -->
+        <article class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?q=80&w=600&auto=format&fit=crop" alt="Art 1">
+            <div class="overlay">
+                <i class="fas fa-expand-arrows-alt"></i>
+            </div>
         </article>
 
-    </main>
+        <!-- Item 2 -->
+        <article class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1618331835717-801e976710b2?q=80&w=600&auto=format&fit=crop" alt="Art 2">
+            <div class="overlay">
+                 <i class="fas fa-expand-arrows-alt"></i>
+            </div>
+        </article>
 
-    <footer id="contacto">
-        <p>Contacto: jesus.garcia@campusfp.es</p>
-        <p>&copy; 2025 Jesús García Romero</p>
-    </footer>
+        <!-- Item 3 -->
+        <article class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1635322966219-b75ed372eb01?q=80&w=600&auto=format&fit=crop" alt="Art 3">
+            <div class="overlay">
+                 <i class="fas fa-expand-arrows-alt"></i>
+            </div>
+        </article>
+
+        <!-- Item 4 -->
+        <article class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1535581652167-4d66e2b613dd?q=80&w=600&auto=format&fit=crop" alt="Art 4">
+            <div class="overlay">
+                 <i class="fas fa-expand-arrows-alt"></i>
+            </div>
+        </article>
+
+         <!-- Item 5 -->
+         <article class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1626263468007-a9e0cf83f1ac?q=80&w=600&auto=format&fit=crop" alt="Art 5">
+            <div class="overlay">
+                 <i class="fas fa-expand-arrows-alt"></i>
+            </div>
+        </article>
+
+         <!-- Item 6 -->
+         <article class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1614726365723-49faaa563392?q=80&w=600&auto=format&fit=crop" alt="Art 6">
+            <div class="overlay">
+                 <i class="fas fa-expand-arrows-alt"></i>
+            </div>
+        </article>
+    </main>
 
 </body>
 </html>
-
-
-
-
